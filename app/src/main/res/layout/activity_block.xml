@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/fontStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <ImageView
+        android:id="@+id/image0"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="6"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <EditText
+        style="@style/fontStyle"
+        android:id="@+id/name0"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        style="@style/fontStyle"
+        android:id="@+id/location0"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="center|start|top"
+        android:inputType="textMultiLine" />
+
+    <RatingBar
+        android:id="@+id/rating0"
+        android:layout_width="wrap_content"
+        android:layout_height="0px"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:numStars="5"
+        tools:foregroundGravity="center|center_horizontal" />
+
+    <EditText
+        style="@style/fontStyle"
+        android:id="@+id/date0"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="time" />
+
+</LinearLayout>
